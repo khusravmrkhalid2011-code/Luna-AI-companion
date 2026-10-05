@@ -1,6 +1,6 @@
 // Public settings (safe to be visible). Your Ollama key is NOT here; it lives in Vercel environment variables.
 window.LUNA_CLOUD = {
-  firebase: { apiKey: 'PASTE_FIREBASE_API_KEY', authDomain: 'PASTE_PROJECT.firebaseapp.com', projectId: 'PASTE_PROJECT_ID', appId: 'PASTE_APP_ID' },
+  firebase: { apiKey: 'AIzaSyD0_DBAbshTDqZoiD7gtZFLVB4aLqNLkms', authDomain: 'luna-ai-companion-eight.vercel.app', projectId: 'luna-ec9f7', appId: '1:977170537891:web:13b1b28d2491d7fd6cce16' },
   // Keep these ids identical to the ALLOWED_MODELS environment variable. Browse names at ollama.com/search?c=cloud
   models: [
     { id: 'gpt-oss:120b', label: 'GPT-OSS 120B (smartest)' },
