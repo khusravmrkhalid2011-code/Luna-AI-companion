@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/cloud/chat", "destination": "/api/chat" },
+    { "source": "/cloud/tts", "destination": "/api/tts" },
+    { "source": "/cloud/sing", "destination": "/api/sing" }
+  ],
+  "functions": { "api/tts.js": { "maxDuration": 60 }, "api/sing.js": { "maxDuration": 90 } }
+}
