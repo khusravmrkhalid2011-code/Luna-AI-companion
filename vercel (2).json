@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/cloud/chat",
+      "destination": "/api/chat"
+    },
+    {
+      "source": "/cloud/music",
+      "destination": "/api/music"
+    }
+  ]
+}
